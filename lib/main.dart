@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   final List<Transaction> transactions = [
     Transaction(id: 't1', title: 'New Shoes', amount: 69.99, date: DateTime.now()),
     Transaction(id: 't2', title: 'Weekly Groc', amount: 16.53, date: DateTime.now()),
+    Transaction(id: 't3', title: 'Hello World!', amount: 46.53, date: DateTime.now()),
   ];
   Widget build(BuildContext ctx) {
     return MaterialApp(
